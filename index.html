@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="ideaForm" action="index.php" method="post">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      </div>
+      <div class="form-group">
+        <label for="title">Project Title</label>
+        <input type="text" id="title" name="title" placeholder="Enter project title" required />
+      </div>
+      <div class="form-group">
+        <label for="description">Project Description</label>
+        <textarea id="description" name="description" placeholder="Describe your idea..." required></textarea>
+      </div>
+      <button type="submit" name="submit">Submit Idea</button>
+    </form>
+    
+  </div>
+</body>
+</html>
